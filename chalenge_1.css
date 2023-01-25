@@ -1,0 +1,295 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+#main{
+    position: absolute;
+    margin-top: 2%;
+    height: 100%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: #F3F3F3;
+}
+#main #nav{
+    font-family: 'Gilroy';
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #nav #snav{
+    
+    display: flex;
+    gap: 10px;
+    
+}
+#main #nav #snav span{
+    font-weight: bold;
+    padding: 1%;
+    width: 25px;
+    text-align: center;
+    color: #F3F3F3;
+    background-color: rgb(16, 15, 15);
+    
+}
+#main #nav #snav h3{
+  font-family: 'voyage';
+  font-weight: bold;      
+}
+
+#main #nav #nlink{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%,0);
+    gap: 40%;
+}
+#main #nav #nlink a{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+    font-weight: bold;
+}
+#main #nav #nlink .home{
+    opacity: .8;
+    
+}
+#main #nav i{
+    padding: 5px;
+    border-radius: 50px  ;
+    border-style:inset;
+    margin-right: 2%;
+}
+#main #full {
+    background-size: cover;
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+#main #full #left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+}
+
+#main #full #left #ltext{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+    
+}
+#main #full #left #ltext h1{
+    width: 140%;
+    margin-bottom: 6%;
+    font-family: 'Gilroy';
+   font-size: 480%;
+   
+   
+}
+#main #full #left #ltext p{
+    width: 390px;
+    font-family: 'Gilroy';
+    opacity: .5;
+    margin-bottom: 6%;
+}
+#main #full #left #ltext input{
+    background-color: rgba(134, 125, 125, 0.495);
+    font-family: 'Gilroy';
+    width: 360px;
+    height: 45px;
+    border:none;
+    border-radius: 50px;
+    color: black;
+    padding-left: 8%;
+}
+#main #full #left #ltext button{
+    position: absolute;
+    color: white;
+    font-family: 'Gilroy';
+    background-color: black;
+    border-radius: 50px;
+    width: 90px;
+    height: 35px;
+    bottom: 5px;
+    right: 21%;
+}
+#main #full #left #ltext i{
+    opacity: .5;
+    position: absolute;
+    left: 1%;
+    bottom: 5%;
+}
+#main  #full #right{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+#main #full #right #rbox1{
+    background-color: white;
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    top: 37%;
+    left: 56%;
+    transform: translate(-50%,-50%) rotate(-20deg);
+    border-radius: 10px;
+}
+#main #full #right #rbox1 #rbox1_t{
+    height: 60%;
+    margin: 7px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/182/925/HD-wallpaper-shin-chan-anime-cute.jpg);
+}
+#main #full #right #rbox1 #rbox1_d{
+    margin-top: 5%;
+    margin: 7px;
+
+}
+#main #full #right #rbox1 #rbox1_d h2{
+    margin-top: 8%;
+    font-family: 'Gilroy';
+}
+#main #full #right #rbox1 #rbox1_d h4{
+    font-family: 'Gilroy';
+    opacity: .5;
+}
+#main #full #right #rbox1 #rbox1_d i{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    font-size:x-large;
+}
+#main #full #right #rbox1 #rbox1_dd{
+    background-color: black;
+    height: 10%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#main #full #right #rbox1 #rbox1_dd p{
+    color: white;
+    margin-left: 5%;
+    padding: 5px;
+}
+#main #full #right #rbox1 #rbox1_dd span{
+    opacity: .5;
+}
+#main #full #right #rbox2{
+    position: absolute;
+    height: 60%;
+    width: 37%;
+    background-color: rgb(247, 243, 243);
+    left: 71%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+#main #full #right #rbox2 #rbox2_t{
+    height: 60%;
+    background-size: cover;
+    background-position: top;
+    background-image: url(https://rukminim1.flixcart.com/image/416/416/kq18n0w0/poster/m/t/4/medium-shinchan-cartoon-wall-poster-interior-wall-decorative-original-imag45ye64qhndby.jpeg?q=70);
+    border-radius: 10px;
+    margin: 7px;
+}
+#main #full #right #rbox2 #rbox2_c{
+    height: 25%;
+    margin-left: 7px;
+    font-family: 'Gilroy';
+    
+}
+#main #full #right #rbox2 #rbox2_c h4{
+    opacity: .5;
+}
+#main #full #right #rbox2 #rbox2_c i{
+    position: absolute;
+    font-size: x-large;
+    bottom: 25%;
+    right: 5%;
+}
+#main #full #right #rbox2 #rbox2_d{
+    background-color: rgb(7, 7, 7);
+    height: 11%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+#main #full #right #rbox2 #rbox2_d p{
+    color: white;
+    padding: 7px;
+}
+#main #full #right #rbox2 #rbox2_d span{
+    opacity: .5;
+}
+#main #full #bnav{
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    gap: 500%;
+    white-space: nowrap;
+    
+}
+#main #full #bnav h3{
+    font-family: 'Gilroy';
+    font-size: 20px;
+}
+#main #full #bnav h4{
+    opacity: .5;
+}
+#main #bottom{
+    top: 10%;
+    padding: 5px;
+    display: flex;
+    gap: 7%;
+    width: 100%;
+    height: 50%;
+}
+#main #bottom #img1{
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(202, 31, 31);
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/fadad4155812641.Y3JvcCw4MDgsNjMyLDAsMTUw.png);
+}
+#main #bottom #img2{
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgaJhuSMKhgdqYHjrS-zLaiN8dUAOzC_hugFvmnabW08hTrb4fYJ0nAIi9vPaxkr_KPmU&usqp=CAU);
+}
+#main #bottom #img3{
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSioHWsMvaeEelcJTd-fxreRfvoIS7OfWd7Pg&usqp=CAU);
+    background-color: rgb(15, 73, 84);
+}
+#main #bottom #img4{
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(131, 18, 114);
+    background-image: url(https://lh3.googleusercontent.com/4eR53kQU4GAPoYWRpBefgG0331ABgteWtso8JGVgPu6h_m1h24L7ibkLZwBfiNLsPg=w800-h500-rw);
+}
+
